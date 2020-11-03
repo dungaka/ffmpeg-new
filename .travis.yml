@@ -120,7 +120,7 @@ jobs:
         - bash ./ios.sh --no-output-redirection --disable-arm64e
     - name: "iOS LTS Build"
       language: objective-c
-      osx_image: xcode7.3
+      osx_image: xcode10.2
       os: osx
       addons:
         homebrew:
@@ -157,7 +157,7 @@ jobs:
     - name: "tvOS LTS Build"
       language: objective-c
       os: osx
-      osx_image: xcode7.3
+      osx_image: xcode10.2
       addons:
         homebrew:
           packages:
